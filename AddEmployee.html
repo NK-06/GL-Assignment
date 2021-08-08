@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Add Employee</title>
+<style>
+
+ body {margin-left :50px;}
+</style>
+</head>
+<body>
+
+<form action="Service" method = "post">     
+    <input type = "submit" name = "button1"  value = "Complete Employee List"> 
+     <input type = "submit" name = "button2"  value = "List of Employees having Skills >= 3"> 
+    <input type = "submit" name = "button3"  value = "list of Employees who are in Devshop & Engg Department">        
+  
+  </form>
+
+ <form  action = "Service"  method = "post">
+   <h3>Please enter details below :</h3> 
+   Emp_ID <input type = "number", name = "emp_id" required = "required"> <br><br>
+   First Name  <input type = "text", name = "first_name"  required = "required"> <br><br>
+   Last Name  <input type = "text", name = "last_name"  required = "required"><br><br>
+   Dept ID  <input type = "number", name = "dept_id"  required = "required"><br><br>
+   Salary  <input type = "number", name = "salary"  required = "required"> <br><br>
+   Skills  <input type = "text", name = "skills" placeholder = "eg. Java, Angular, Sql"><br><br> 
+   Dept Name  <input type = "text", name = "dept_name"  required = "required"><br><br>
+   <input type = "submit" value = "submit">
+    
+ </form>
+</body>
+</html>
